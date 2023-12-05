@@ -1,13 +1,14 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import {FaLinkedin, FaGithub } from "react-icons/fa";
+import backgroundImg from "../assets/busan.jpeg";
 
 const Main = () => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-right"
-        src="src/assets/busan.jpeg"
+        src={backgroundImg}
         alt="Photo of Busan"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
