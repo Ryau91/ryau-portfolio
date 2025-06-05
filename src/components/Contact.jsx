@@ -7,7 +7,7 @@ const Contact = () => {
         Contact
       </h1>
       <h3 className="flex justify-center p-4">
-        <span>Please send a message to me here or you can contact me via Gmail:&nbsp;<a href="mailto:ryau91@gmail.com" className="text-blue-400 hover:underline active:text-blue-800">ryau91@gmail.com</a></span>
+        <span>Please send a message to me here or you can contact me via Gmail:&nbsp;<a href="mailto:ryau91@gmail.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline active:text-blue-800">ryau91@gmail.com</a></span>
       </h3>
       <form
         action="https://getform.io/f/52b4bc80-6995-4488-adf8-85bc006f7570"

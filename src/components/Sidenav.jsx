@@ -6,6 +6,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
+import { GrProjects } from "react-icons/gr";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
@@ -15,7 +16,7 @@ const Sidenav = () => {
 
   return (
     <div>
-      <AiOutlineMenu
+      <AiOutlineMenu size={30}
         onClick={handleNav}
         className="absolute top-4 right-4 z-[99] md:hidden"
       />
@@ -37,6 +38,14 @@ const Sidenav = () => {
           >
             <AiOutlineProject size={20} />
             <span className="pl-4">Projects</span>
+          </a>
+          <a
+            onClick={handleNav}
+            href="#work"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <GrProjects size={20} />
+            <span className="pl-4">Work</span>
           </a>
           <a
             onClick={handleNav}
@@ -72,6 +81,12 @@ const Sidenav = () => {
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiOutlineProject size={20} />
+          </a>
+          <a
+            href="#work"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            <GrProjects size={20} />
           </a>
           <a
             href="#aboutme"

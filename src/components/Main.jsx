@@ -1,6 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import {FaLinkedin, FaGithub } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 import backgroundImg from "../assets/busan.jpeg";
 
 const Main = () => {
@@ -47,6 +48,13 @@ const Main = () => {
               rel="noopener noreferrer"
             >
               <FaGithub className="cursor-pointer" size={25} />
+            </a>
+            <a
+              href="mailto:ryau91@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiGmail className="cursor-pointer" size={25} />
             </a>
           </div>
         </div>
